@@ -70,6 +70,7 @@
     }
     ```
 5.  함수를 분리시켜주세요.
+
     a. setBgColor 함수
     b. setImage 함수
     c. setNameText 함수
