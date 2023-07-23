@@ -6,6 +6,7 @@
 
 const nav = getNode(".nav");
 
+// 2. nav 클릭시 배경 색상 변경
 function setBgColor(index) {
   //배경색 변경( colorB의 기본값은 #000 으로 한다 )
   //elem.style.background = `linear-gradient(to bottom, 'colorA','colorB')`;
@@ -15,6 +16,8 @@ function setBgColor(index) {
 
   css(BgColor, "background", `linear-gradient(to bottom, ${colorA},${colorB}`);
 }
+
+// 3. 이미지 변경
 function setImg(index) {
   // target.src = `./assets/${data.name}.jpeg`;
   // target.alt = data.alt
@@ -23,6 +26,7 @@ function setImg(index) {
   attr(visual, "alt", `${data[index - 1].alt}`);
 }
 
+// 4. 텍스트 변경
 function setNameText(index) {
   // target.textContent = data.name;
   const name = getNode(".nickName");
@@ -39,7 +43,10 @@ function handleSlider(e) {
 
   const index = attr(target, "data-index");
 
+  // 1-b. 반복문
   list.forEach((li) => removeClass(li, "is-active"));
+
+  // 5. 함수 분리
 
   addClass(target, "is-active");
 
