@@ -70,6 +70,7 @@
     }
     ```
 5.  함수를 분리시켜주세요.
+    <br/>
     a. setBgColor 함수
     b. setImg 함수
     c. setNameText 함수
