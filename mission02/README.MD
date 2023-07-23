@@ -1,6 +1,7 @@
 # Mission02
 
 썸네일 이미지를 클릭하면 메인 이미지와 배경이 바뀔 수 있도록 작성한 코드입니다.
+<br/>
 
 ### 과제 요구사항
 
@@ -29,7 +30,10 @@
     list.forEach((li) => removeClass(li, "is-active"));
     ```
 
+    <br/>
+
 2.  이미지와 색상의 데이터는 data.js 에서 불러와주세요.
+    <br/>
 3.  각 li 항목들을 클릭하면 배경 색상과 메인 비주얼 이미지를 변경해주세요.
     a. 배경색 변경 (colorB의 기본값은 #000 으로 한다)
 
@@ -61,6 +65,8 @@
     }
     ```
 
+    <br/>
+
 4.  비주얼이 변경되면 상단에 비주얼에 맞는 이름으로 변경해주세요.
     ```js
     function setNameText(index) {
@@ -69,10 +75,14 @@
       name.textContent = data[index - 1].name;
     }
     ```
+    <br/>
 5.  함수를 분리시켜주세요.
     <br/>
     a. setBgColor 함수
+    <br/>
     b. setImg 함수
+    <br/>
     c. setNameText 함수
+    <br/>
 
 6.  가독성이 좋은 함수로 리팩토링 해주세요.
