@@ -70,8 +70,8 @@
     }
     ```
 5.  함수를 분리시켜주세요.
-    a. setBgColor 함수
-    b. setImage 함수
-    c. setNameText 함수
+a. setBgColor 함수
+b. setImage 함수
+c. setNameText 함수
 
 6.  가독성이 좋은 함수로 리팩토링 해주세요.
